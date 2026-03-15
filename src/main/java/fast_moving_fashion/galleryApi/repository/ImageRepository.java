@@ -1,0 +1,9 @@
+package fast_moving_fashion.galleryApi.repository;
+
+import fast_moving_fashion.galleryApi.model.Image;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ImageRepository extends JpaRepository<Image, Long> {
+}
