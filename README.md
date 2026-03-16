@@ -23,10 +23,11 @@ DB_PASSWORD=your-database-password
 SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
 SUPABASE_KEY=your-service-role-key
 SUPABASE_BUCKET=fashion-images
+CORS_ALLOWED_ORIGINS=http://localhost:PORT,https://your-frontend-url
 ```
 ## Next Steps
 
-- **CORS** — replace the current `@CrossOrigin("*")` with a proper configuration restricting allowed origins to known domains only
+- - [x] **CORS** — replace the current `@CrossOrigin("*")` with a proper configuration restricting allowed origins to known domains only 
 - **User management** — implement authentication and associate images to users for referential integrity, so each user can only access and manage their own uploads
 - **Sign in / Sign out** — integrate Supabase Auth or Spring Security with JWT to support user sessions
 
@@ -50,6 +51,6 @@ SUPABASE_BUCKET=fashion-images
 
 ## Próximos pasos  
 
-- **CORS** — reemplazar el `@CrossOrigin("*")` actual por una configuración que restrinja los orígenes permitidos a dominios conocidos
+- - [x] **CORS** — reemplazar el `@CrossOrigin("*")` actual por una configuración que restrinja los orígenes permitidos a dominios conocidos
 - **Gestión de usuarios** — implementar autenticación y asociar las imágenes a usuarios para integridad referencial, de modo que cada usuario solo pueda acceder y gestionar sus propias imágenes
 - **Sign in / Sign out** — integrar Supabase Auth o Spring Security con JWT para manejar sesiones de usuario
